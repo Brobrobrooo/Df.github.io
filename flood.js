@@ -1,4 +1,4 @@
-2nd   document.addEventListener('DOMContentLoaded', () => {
+   document.addEventListener('DOMContentLoaded', () => {
  let socket;
     let isConnected = false;
     let packetIdNum = 0;
